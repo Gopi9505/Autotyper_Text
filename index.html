@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <title>Autotyping text</title>
+    <link rel="stylesheet" href="style.css">
+<body>
+ <div class="header">
+     <nav>
+        <img src="./images/logo2.png" class="logo">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#news">ABOUT</a></li>
+                <li><a href="#contact">CONTACTS</a></li>
+                <li><a href="#about">SERVICES</a></li>
+            </ul>
+        <img src="./images/menu.png" class="menu-icon">
+     </nav>
+     <div class="text-box">
+    <h1>I'm <span class="auto-input"></span></h1>
+    <p>This simple web page is designed by using the html and css<br> And this auto typing is done by Javascript</p>
+
+    <a href="#">Contact Me</a>
+    <a href="#" class="btn">Download CV</a>
+    </div>
+
+   <img src="./images/user.png" class="user" >
+
+ </div>
+ <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+ <script>
+     var typed = new Typed(".auto-input", {
+         strings: ["Gopi Mittakola","This Auto-typing","Developed by Me"],
+         typeSpeed: 100,
+         backSpeed: 100,
+         loop: true
+     })
+ </script>
+</body>
+</html>
